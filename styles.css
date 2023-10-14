@@ -1,0 +1,45 @@
+body{
+    background: lightgray
+}
+header{
+    background:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 0;
+    margin:0;
+}
+.enca{
+    display:flex;
+    flex-flow: row;
+    margin:auto;
+    justify-content: space-between;
+}
+div.h2, div.p{
+    padding: 0;
+}
+.publicaciones{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: lightgray;
+    align-items: center;
+    width: 550px;
+    margin:auto;
+}
+.ima{
+    width: 100%;
+    background: white;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.post{
+    background: white;
+    padding: 10px;
+    margin: 20px;;
+}
